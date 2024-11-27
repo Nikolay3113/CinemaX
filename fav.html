@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <title>Мои избранные фильмы</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="header__content">
+          <a href="index.html" class="header__logo">CinemaX</a>
+          <!-- Кнопка назад -->
+          <a href="indecs.html" class="header__back-button" role="button" aria-label="CinemaX">
+            Назад
+          </a>  
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="movies"></div>
+
+        <div class="pagination hidden">
+            <button class="pagination__prev"><</button>
+            <span class="pagination__info"></span>
+            <button class="pagination__next">></button>
+        </div>
+    </div>
+
+    <div class="modal">
+      <button class="add-to-favorites-button">Добавить в избранные</button>
+
+        <!-- Модальное окно будет заполняться динамически с помощью JavaScript -->
+    </div>
+
+    <script src="js/fav.js"></script>
+</body>
+
+</html>
